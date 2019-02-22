@@ -55,7 +55,7 @@ export const EventList = ({
             <col->
               <h3>Description</h3>
               <h5>{event.description}</h5>
-              <a href={event.link}>{event.link}</a>
+              <a href={event.link} target="_blank">{event.link}</a>
               {attendingCurrent && <MessageList
                 user={user}
                 users={users}
