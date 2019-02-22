@@ -1,4 +1,4 @@
-# Holochain Events Goer 4000
+# HOLOCHAIN EVENTS hApp
 
 A simple event app designed to get new users up, running and developing on Holochain
 
@@ -63,6 +63,7 @@ cd react-ui-src
 npm install
 npm run start
 ```
+tested with node v8.15.0
 
 This should automatically open up [http://localhost:3000](http://localhost:3000) in your browser, which is where your UI is now being served. Similar to when it was being served via the production `holochain` Conductor, but this time it has live-reload, and isn't serving static (pre-compiled) files, but dynamic ones.
 
